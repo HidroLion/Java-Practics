@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.jumbotron {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.score h4 {
+    margin: 0;
+}
+
+.place {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.place h3 {
+    text-align: center;
+}
+
+.place p {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.place form {
+    text-align: center;
+}
+
+.place form input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.place form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.activities {
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 5px 0;
+    max-height: 200px;
+    overflow-y: auto;
+}
